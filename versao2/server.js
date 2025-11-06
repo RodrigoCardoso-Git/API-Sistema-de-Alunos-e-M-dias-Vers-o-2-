@@ -1,7 +1,3 @@
-// ============================================================================
-// 🔹 Servidor HTTP — API de Alunos (Versão 2.0)
-// 🔹 Inclui rotas: CRUD + ranking + filtros + ordenação
-// ============================================================================
 const http = require('http');
 const { URL } = require('url');
 const utils = require('./utils');
@@ -12,7 +8,7 @@ const servidor = http.createServer((req, res) => {
     const metodo = req.method;
     const alunos = utils.carregarAlunos();
 
-    console.log(`\n📡 ${metodo} ${caminho}`);
+    console.log(`\n ${metodo} ${caminho}`);
 
     // === Rota inicial ===
     if (metodo === "GET" && caminho === "/") {
@@ -131,4 +127,4 @@ const servidor = http.createServer((req, res) => {
     utils.enviarResposta(404, { erro: "Rota não encontrada" }, res);
 });
 
-servidor.listen(3000, () => console.log("🚀 Servidor rodando em http://localhost:3000"));
+servidor.listen(3000, () => console.log("Servidor rodando em http://localhost:3000"));

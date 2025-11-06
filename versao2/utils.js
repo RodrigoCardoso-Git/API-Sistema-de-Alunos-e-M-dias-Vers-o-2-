@@ -1,6 +1,4 @@
-// ============================================================================
-// 🔹 Módulo utilitário — Funções auxiliares para manipulação de dados dos alunos
-// ============================================================================
+
 const fs = require("fs");
 const DB = './versao2/alunos.json';
 
