@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nome": "Rodrigo",
+    "nota1": 7,
+    "nota2": 5,
+    "nota3": 3,
+    "media": "5.00",
+    "situacao": "Reprovado"
+  },
+  {
+    "id": 2,
+    "nome": "Maicon",
+    "nota1": 8,
+    "nota2": 9,
+    "nota3": 6
+  },
+  {
+    "id": 3,
+    "nome": "Maria",
+    "nota1": 7,
+    "nota2": 9,
+    "nota3": 4,
+    "media": "6.67",
+    "situacao": "Reprovado"
+  },
+  {
+    "id": 3,
+    "nome": "Maria dos Remédios",
+    "nota1": 8,
+    "nota2": 9,
+    "nota3": 10
+  }
+]
